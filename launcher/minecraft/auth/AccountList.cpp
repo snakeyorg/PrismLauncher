@@ -596,7 +596,7 @@ bool AccountList::anyAccountIsValid()
             return true;
         }
     }
-    return false;
+    return true;
 }
 
 void AccountList::fillQueue()
